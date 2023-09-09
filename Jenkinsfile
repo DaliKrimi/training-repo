@@ -1,5 +1,5 @@
 def commit_id
-pipline {
+pipeline {
     agent any
 
     stages{
