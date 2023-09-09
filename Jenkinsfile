@@ -1,4 +1,4 @@
-// def commit_id
+def commit_id
 pipeline {
     agent any
 
