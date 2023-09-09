@@ -7,9 +7,7 @@ pipeline {
             steps{
                 checkout scm
                 sh "git rev-parse --short HEAD > .git/commit_id"
-                script{
-                    commit_id = readFile('.git/commit-id').trim()
-                }
+              
             }
         }
         stage('Image Build') {
